@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    font-family: "Oswald", "sans-serif";
+
+    h2 {
+        width: 30%;
+        border: solid red;
+        font-size: 2.5rem;
+    }
+
+    nav {
+        border: solid purple;
+        width: 30%;
+    }
+
+    ul {
+        display: flex;
+        justify-content:space-evenly;
+        align-items: center;
+        height: 15vh;
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+        color: #5b5b5b;
+        font-size: 1.25rem;
+        font-weight: 500;
+
+    }
+
+    li:hover {
+        font-size: 1.5rem;
+        border: solid #000000;
+        width: 7vw;
+        text-align: center;
+    }
+
+    button {
+        border: solid #000000;
+        width: 10%;
+        height: 78px;
+        font-family: "Oswald";
+        font-size: 1.5rem;
+        font-weight: 500;
+        background-color: #FFFFFF;
+    }
+}
+
+main {
+
+    .container_background_image {
+
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-image: url("./imagens/background.png");
+        background-repeat: no-repeat;
+        background-size: 100vw;
+        font-family: "Oswald", "sans-serif";
+        height: 75vh;
+        padding: 5%;
+
+
+        h1 {
+            font-size: 6rem;
+            color: #FFFFFF;
+            font-weight: 700;
+        }
+
+        h3 {
+            font-size: 2rem;
+            color: #FFFFFF;
+            font-weight: 300;
+            height: 10vh;
+        }
+
+        button {
+            width: 251px;
+            height: 59px;
+            background-color: #0016DF;
+            font-family: "Oswald";
+            color: #FFFFFF;
+            font-size: 24px;
+            font-weight: 700;
+        }
+
+    }
+
+}
+
+@media (min-width: 201px) and (max-width: 500px) {
+    header {
+        height: 30vh;
+        background-color: tomato;
+        display: flex;
+        flex-direction: column;
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        button {
+            width: 20%;
+            height: 5vh;
+        }
+    }
+
+    h2 {
+        display: none;
+    }
+}
