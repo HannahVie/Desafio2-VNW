@@ -147,16 +147,57 @@ main .nossas_solucoes div article p {
 }
 main .atendimento {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 5%;
   flex-direction: row;
   text-align: left;
 }
 main .atendimento div {
   display: flex;
-  padding: 5%;
   flex-direction: column;
   text-align: left;
+  font-family: "Oswald";
+}
+main .atendimento div h2 {
+  color: #0017E9;
+  font-size: 2rem;
+  height: 8vh;
+}
+main .atendimento div h3 {
+  font-size: 1.5rem;
+  height: 15vh;
+}
+main .atendimento div .galeria {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 50vw;
+  justify-content: flex-start;
+}
+main .atendimento div .galeria figure {
+  width: 40%;
+  height: 35vh;
+}
+main .atendimento div .galeria figure figcaption {
+  font-weight: 500;
+  font-size: 1.25rem;
+}
+main .atendimento div .field input {
+  width: 25vw;
+  height: 50px;
+}
+main .atendimento div textarea {
+  width: 25vw;
+  height: 100px;
+}
+main .atendimento div button {
+  width: 18vw;
+  height: 7vh;
+  background-color: #0016DF;
+  font-family: "Oswald";
+  color: #FFFFFF;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 @media (min-width: 201px) and (max-width: 500px) {

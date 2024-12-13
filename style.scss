@@ -133,7 +133,6 @@ main {
             justify-content: space-evenly;
             width: 90%;
         }
-
     }
 
     .nossas_solucoes {
@@ -151,7 +150,6 @@ main {
         .solucoes {
             color: #0017E9;
             height: 9vh;
-
         }
 
         div {
@@ -172,39 +170,84 @@ main {
                     font-weight: 500;
                     padding: 1rem;
                     font-size: 1.5rem;
-
-
                 }
 
                 p {
                     padding: 1rem;
                     font-weight: 200;
                     font-size: 1.5rem;
-
                 }
-
-
             }
         }
-
     }
 
     .atendimento {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         padding: 5%;
         flex-direction: row;
         text-align: left;
 
         div {
             display: flex;
-            padding: 5%;
+            //padding: 5%;
             flex-direction:column;
             text-align: left;
+            font-family: "Oswald";
+            
+
+            h2{
+                color: #0017E9;
+                font-size: 2rem;
+                height: 8vh;
+            }
+
+            h3{
+                font-size: 1.5rem;
+                height: 15vh;
+            }
+
+            .galeria{
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: row;
+                width: 50vw;
+                justify-content: flex-start;
+
+                figure{
+                    width: 40%;
+                    height: 35vh;
+
+                    figcaption{
+                        font-weight: 500;
+                        font-size: 1.25rem;
+                    }
+                }
+
+            }
+
+            .field input{
+                width: 25vw;
+                height: 50px;
+            }
+
+            textarea{
+                width: 25vw;
+                height: 100px;
+            }
+
+            button {
+                width: 18vw;
+                height: 7vh;
+                background-color: #0016DF;
+                font-family: "Oswald";
+                color: #FFFFFF;
+                font-size: 1.25rem;
+                font-weight: 500;
+            }
+
         }
-
     }
-
 }
 
 @media (min-width: 201px) and (max-width: 500px) {
