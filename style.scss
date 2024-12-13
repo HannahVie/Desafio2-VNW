@@ -17,18 +17,18 @@ header {
 
     h2 {
         width: 30%;
-        border: solid red;
+        //border: solid red;
         font-size: 2.5rem;
     }
 
     nav {
-        border: solid purple;
+        //border: solid purple;
         width: 30%;
     }
 
     ul {
         display: flex;
-        justify-content:space-evenly;
+        justify-content: space-evenly;
         align-items: center;
         height: 15vh;
         list-style: none;
@@ -39,18 +39,9 @@ header {
         color: #5b5b5b;
         font-size: 1.25rem;
         font-weight: 500;
-
-    }
-
-    li:hover {
-        font-size: 1.5rem;
-        border: solid #000000;
-        width: 7vw;
-        text-align: center;
     }
 
     button {
-        border: solid #000000;
         width: 10%;
         height: 78px;
         font-family: "Oswald";
@@ -96,6 +87,120 @@ main {
             color: #FFFFFF;
             font-size: 24px;
             font-weight: 700;
+        }
+
+    }
+
+    .gestao_portuaria {
+
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 5%;
+
+        h3 {
+            font-family: "Oswald";
+            color: #0017E9;
+            //height: 10vh;
+            font-size: 1.5rem;
+        }
+
+        h2 {
+            font-family: "Roboto";
+            font-weight: 800;
+            font-size: 2.25rem;
+            //height: 20vh;
+            width: 30vw;
+        }
+
+        p {
+            font-family: "Roboto";
+            font-weight: 400;
+            font-size: 1.5rem;
+            width: 30vw;
+        }
+
+        a {
+            font-family: "Roboto";
+            font-size: 1.5rem;
+        }
+
+
+        div {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            justify-content: space-evenly;
+            width: 90%;
+        }
+
+    }
+
+    .nossas_solucoes {
+        background-color: rgba(206, 197, 197, 0.792);
+        display: flex;
+        justify-content: space-evenly;
+        padding: 5%;
+        flex-direction: column;
+        text-align: center;
+
+        h2 {
+            font-family: "Oswald";
+        }
+
+        .solucoes {
+            color: #0017E9;
+            height: 9vh;
+
+        }
+
+        div {
+
+            display: flex;
+            justify-content: center;
+            flex-direction: row;
+            padding: 5%;
+
+            article {
+
+                margin: 4rem;
+                background-color: #fff;
+                text-align: left;
+                font-family: "Oswald";
+
+                h3 {
+                    font-weight: 500;
+                    padding: 1rem;
+                    font-size: 1.5rem;
+
+
+                }
+
+                p {
+                    padding: 1rem;
+                    font-weight: 200;
+                    font-size: 1.5rem;
+
+                }
+
+
+            }
+        }
+
+    }
+
+    .atendimento {
+        display: flex;
+        justify-content: space-around;
+        padding: 5%;
+        flex-direction: row;
+        text-align: left;
+
+        div {
+            display: flex;
+            padding: 5%;
+            flex-direction:column;
+            text-align: left;
         }
 
     }
