@@ -136,7 +136,7 @@ main {
     }
 
     .nossas_solucoes {
-        background-color: rgba(206, 197, 197, 0.792);
+        background-color: #D8D8D8;
         display: flex;
         justify-content: space-evenly;
         padding: 5%;
@@ -226,28 +226,53 @@ main {
 
             }
 
-            .field input{
-                width: 25vw;
-                height: 50px;
-            }
+            
+            .formulario{
+                display: flex;
+                flex-direction:column;
+                text-align: left;
+                justify-content: space-between;
+                height: 60vh;
+                width: 35vw;
+                font-weight: 300;
+                font-size: 1.25rem;
 
-            textarea{
-                width: 25vw;
-                height: 100px;
+                .field input{
+                    width: 23vw;
+                    height: 50px;
+                }
+    
+                textarea{
+                    width: 23vw;
+                    height: 100px;
+                }
             }
 
             button {
-                width: 18vw;
+                width: 23vw;
                 height: 7vh;
                 background-color: #0016DF;
                 font-family: "Oswald";
                 color: #FFFFFF;
                 font-size: 1.25rem;
                 font-weight: 500;
+                margin-top: 7vh;
+                border: none;
             }
-
         }
     }
+}
+
+footer {
+    background-color:#D8D8D8;
+    display: flex;
+    font-family: "Oswald";
+    font-weight: 700;
+    color:#001C43;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-around;
+
 }
 
 @media (min-width: 201px) and (max-width: 500px) {
