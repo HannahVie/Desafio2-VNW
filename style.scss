@@ -191,34 +191,34 @@ main {
         div {
             display: flex;
             //padding: 5%;
-            flex-direction:column;
+            flex-direction: column;
             text-align: left;
             font-family: "Oswald";
-            
 
-            h2{
+
+            h2 {
                 color: #0017E9;
                 font-size: 2rem;
                 height: 8vh;
             }
 
-            h3{
+            h3 {
                 font-size: 1.5rem;
                 height: 15vh;
             }
 
-            .galeria{
+            .galeria {
                 display: flex;
                 flex-wrap: wrap;
                 flex-direction: row;
                 width: 50vw;
                 justify-content: flex-start;
 
-                figure{
+                figure {
                     width: 40%;
                     height: 35vh;
 
-                    figcaption{
+                    figcaption {
                         font-weight: 500;
                         font-size: 1.25rem;
                     }
@@ -226,10 +226,10 @@ main {
 
             }
 
-            
-            .formulario{
+
+            .formulario {
                 display: flex;
-                flex-direction:column;
+                flex-direction: column;
                 text-align: left;
                 justify-content: space-between;
                 height: 60vh;
@@ -237,12 +237,12 @@ main {
                 font-weight: 300;
                 font-size: 1.25rem;
 
-                .field input{
+                .field input {
                     width: 23vw;
                     height: 50px;
                 }
-    
-                textarea{
+
+                textarea {
                     width: 23vw;
                     height: 100px;
                 }
@@ -264,11 +264,11 @@ main {
 }
 
 footer {
-    background-color:#D8D8D8;
+    background-color: #D8D8D8;
     display: flex;
     font-family: "Oswald";
     font-weight: 700;
-    color:#001C43;
+    color: #001C43;
     height: 10vh;
     align-items: center;
     justify-content: space-around;
